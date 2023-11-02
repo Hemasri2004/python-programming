@@ -1,0 +1,7 @@
+n=int(input())
+l=list(map(int,input().split))
+l.append(x)
+y=minlist(l)
+l.remove(y)
+z=minlist(l)
+print(z)
