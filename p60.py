@@ -1,0 +1,7 @@
+n=int(input())
+l=list(map(int,input().split()))
+k=int(input())
+x=set(l)
+l=list(l)
+l.sort()
+print(l[k])
